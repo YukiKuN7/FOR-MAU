@@ -1,0 +1,96 @@
+body {
+  font-family: "Lobster", cursive; /* Change to a romantic cursive font */
+  background-color: #ffdde1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  margin: 0;
+  background: url("catsy3.jpg");
+  background-size: cover; /* :inlineRefs{references="&#91;&#123;&quot;type&quot;&#58;&quot;inline_reference&quot;,&quot;start_index&quot;&#58;316,&quot;end_index&quot;&#58;319,&quot;number&quot;&#58;4,&quot;url&quot;&#58;&quot;https&#58;//blog.logrocket.com/css-full-page-background/&quot;,&quot;favicon&quot;&#58;&quot;https&#58;//imgs.search.brave.com/y1YUs0yWqZMbdQnRGDUhAeAg3Jjs7P9iQ2DBXjFZWMM/rs&#58;fit&#58;32&#58;32&#58;1&#58;0/g&#58;ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYmNkNzk2M2Jh/Y2FkZmZhODI3Mzdj/ZmFkMzYwNTBiMWE5/MThiNzFlY2NlMzAy/ODFkOTliZDEwZTlh/OTM5M2RiOS9ibG9n/LmxvZ3JvY2tldC5j/b20v&quot;,&quot;snippet&quot;&#58;&quot;Understanding&#32;the&#32;background-size&#32;property\n\nIn&#32;this&#32;tutorial,&#32;we’ll&#32;demonstrate&#32;how&#32;to&#32;set&#32;a&#32;full-page&#32;background&#32;image&#32;and&#32;create&#32;a&#32;visually&#32;striking&#32;and&#32;immersive&#32;experience&#32;for&#32;users.&#32;We’ll&#32;explore&#32;different&#32;techniques&#32;for&#32;setting&#32;a&#32;full-page&#32;background&#32;using&#32;CSS,&#32;including&#32;using&#32;the&#32;background-image&#32;property,&#32;the&#32;image-set()&#32;function,&#32;and&#32;advanced&#32;techniques&#32;such&#32;as&#32;using&#32;multiple&#32;background&#32;i…&quot;&#125;,&#123;&quot;type&quot;&#58;&quot;inline_reference&quot;,&quot;start_index&quot;&#58;319,&quot;end_index&quot;&#58;322,&quot;number&quot;&#58;8,&quot;url&quot;&#58;&quot;https&#58;//theme.co/forum/t/background-image-full-screen/94770&quot;,&quot;favicon&quot;&#58;&quot;https&#58;//imgs.search.brave.com/8GMDLm5H5mxkK6-FpdMJvAkiZCbxRIDfMOq2-U78GRo/rs&#58;fit&#58;32&#58;32&#58;1&#58;0/g&#58;ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGFjOTBkNTU4/NWY5MTEyNjBjYTZl/ZjZkOTc5MjVlOWY2/M2NjN2YyZGZhZjFl/ZTRlM2RiMmZmYzg2/OTMwNWY4MC90aGVt/ZS5jby8&quot;,&quot;snippet&quot;&#58;&quot;Hello,&#32;How&#32;can&#32;I&#32;make&#32;this&#32;background&#32;image&#32;full&#32;screen&#32;to&#32;extend&#32;the&#32;width&#32;of&#32;each&#32;screen&#32;size&#32;it&#32;is&#32;on?&#32;Thank&#32;you,&#32;Ashley…&quot;&#125;&#93;"} */
+  background-position: center; /* :inlineRefs{references="&#91;&#123;&quot;type&quot;&#58;&quot;inline_reference&quot;,&quot;start_index&quot;&#58;360,&quot;end_index&quot;&#58;363,&quot;number&quot;&#58;4,&quot;url&quot;&#58;&quot;https&#58;//blog.logrocket.com/css-full-page-background/&quot;,&quot;favicon&quot;&#58;&quot;https&#58;//imgs.search.brave.com/y1YUs0yWqZMbdQnRGDUhAeAg3Jjs7P9iQ2DBXjFZWMM/rs&#58;fit&#58;32&#58;32&#58;1&#58;0/g&#58;ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYmNkNzk2M2Jh/Y2FkZmZhODI3Mzdj/ZmFkMzYwNTBiMWE5/MThiNzFlY2NlMzAy/ODFkOTliZDEwZTlh/OTM5M2RiOS9ibG9n/LmxvZ3JvY2tldC5j/b20v&quot;,&quot;snippet&quot;&#58;&quot;Fixed&#32;backgrounds\n\nWe&#32;can&#32;use&#32;JavaScript&#32;to&#32;change&#32;the&#32;background&#32;color&#32;dynamically&#32;as&#32;a&#32;response&#32;to&#32;an&#32;event.&#32;In&#32;the&#32;code&#32;snippet&#32;below,&#32;we&#32;change&#32;the&#32;background&#32;color&#32;in&#32;response&#32;to&#32;the&#32;click&#32;of&#32;a&#32;button&#58;\nCreating&#32;responsive&#32;backgrounds&#32;that&#32;adapt&#32;to&#32;different&#32;device&#32;widths,&#32;such&#32;as&#32;mobile&#32;and&#32;desktop,&#32;is&#32;an&#32;essential&#32;part&#32;of&#32;modern&#32;web&#32;design.&#32;In&#32;this&#32;section,&#32;we&#32;explore&#32;a&#32;couple&#32;of&#32;techniques&#32;…&quot;&#125;,&#123;&quot;type&quot;&#58;&quot;inline_reference&quot;,&quot;start_index&quot;&#58;363,&quot;end_index&quot;&#58;366,&quot;number&quot;&#58;8,&quot;url&quot;&#58;&quot;https&#58;//theme.co/forum/t/background-image-full-screen/94770&quot;,&quot;favicon&quot;&#58;&quot;https&#58;//imgs.search.brave.com/8GMDLm5H5mxkK6-FpdMJvAkiZCbxRIDfMOq2-U78GRo/rs&#58;fit&#58;32&#58;32&#58;1&#58;0/g&#58;ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGFjOTBkNTU4/NWY5MTEyNjBjYTZl/ZjZkOTc5MjVlOWY2/M2NjN2YyZGZhZjFl/ZTRlM2RiMmZmYzg2/OTMwNWY4MC90aGVt/ZS5jby8&quot;,&quot;snippet&quot;&#58;&quot;Hello,&#32;How&#32;can&#32;I&#32;make&#32;this&#32;background&#32;image&#32;full&#32;screen&#32;to&#32;extend&#32;the&#32;width&#32;of&#32;each&#32;screen&#32;size&#32;it&#32;is&#32;on?&#32;Thank&#32;you,&#32;Ashley…&quot;&#125;&#93;"} */
+  background-repeat: no-repeat; 
+  font-size: 35px;
+  color: rgb(255, 0, 174);
+}
+.hh {
+  -webkit-text-stroke: 2px #71004f;
+  font-weight: 900;
+}
+.pp {
+  -webkit-text-stroke: 2px #71004f;
+
+  font-size: 50px;
+  font-style: oblique;
+  font-weight: 800;
+}
+
+body .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+  height: 280px;
+}
+
+.buttons button {
+  background-color: #29d2db;
+  color: #fff;
+  padding: 10px 30px;
+  border: none; 
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 26px;
+  cursor: pointer;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttons button:hover {
+  background-color: #7c1f37;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#no-button {
+  cursor: pointer;
+}
+
+.hidden-message {
+  display: none;
+  margin-top: 20px;
+}
+
+.move {
+  animation: moveNoMessage 0.5s linear;
+}
+
+@keyframes moveNoMessage {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(30px, 30px);
+  }
+  50% {
+    transform: translate(-20px, -20px);
+  }
+  75% {
+    transform: translate(10px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
